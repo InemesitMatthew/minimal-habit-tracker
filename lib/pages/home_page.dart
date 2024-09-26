@@ -248,7 +248,6 @@ class _HomePageState extends State<HomePage> {
         bool isCompletedToday = isHabitCompletedToday(habit.completedDays);
 
         // return habit tile UI
-        // return MyHabitTile(isCompleted: isCompletedToday, text: habit.name);
         return MyHabitTile(
           text: habit.name,
           isCompleted: isCompletedToday,
